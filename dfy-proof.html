@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ShivX Labs — automation proof piece</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; background:#f4f5f7; margin:0; padding:40px; color:#1a1a1a; }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .sub { color:#666; margin-bottom: 28px; font-size: 14px; }
+  .stage { background:#fff; border-radius: 10px; padding: 20px 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  .stage h2 { font-size: 14px; text-transform: uppercase; letter-spacing: .04em; color:#888; margin: 0 0 12px; }
+  .arrow { text-align:center; color:#bbb; font-size: 20px; margin: -8px 0; }
+  .form-row { display:flex; margin-bottom:10px; font-size:14px; }
+  .form-row .label { width:90px; color:#888; }
+  .form-row .value { font-weight:500; }
+  table { border-collapse: collapse; width:100%; font-size: 13px; }
+  th, td { border: 1px solid #e3e3e6; padding: 8px 10px; text-align:left; }
+  th { background:#fafafa; color:#888; font-weight:600; }
+  .bubble { background:#e7f3ff; border-radius: 14px 14px 14px 2px; padding: 14px 16px; font-size: 14px; white-space: pre-wrap; max-width: 480px; }
+  .meta { font-size: 12px; color:#888; margin-top:8px; }
+  .badge { display:inline-block; background:#eef; color:#446; font-size:11px; padding:2px 8px; border-radius: 10px; margin-left:8px; }
+  .sample-tag { background:#fff3cd; color:#856404; font-size:11px; padding:2px 8px; border-radius:10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Contact form &rarr; CRM lead + Telegram notification</h1>
+  <div class="sub">A real, working example of the kind of small automation ShivX Labs builds. <span class="sample-tag">Form data below is a sample</span> — the CRM row and Telegram delivery are real, produced by actually running this automation once.</div>
+
+  <div class="stage">
+    <h2>1. Contact form submitted</h2>
+    <div class="form-row"><div class="label">Name</div><div class="value">Jamie Chen</div></div>
+    <div class="form-row"><div class="label">Email</div><div class="value">jamie@examplebakery.com.au</div></div>
+    <div class="form-row"><div class="label">Message</div><div class="value">Hi, I saw your automation offer - interested in connecting our online order form to our records. Can you tell me more?</div></div>
+  </div>
+
+  <div class="arrow">&darr;</div>
+
+  <div class="stage">
+    <h2>2. CRM lead created automatically <span class="badge">real row</span></h2>
+    <table>
+      <tr><th>received_at</th><th>name</th><th>email</th><th>status</th></tr>
+      <tr><td>2026-09-29T15:11Z</td><td>Jamie Chen</td><td>jamie@examplebakery.com.au</td><td>NEW</td></tr>
+    </table>
+  </div>
+
+  <div class="arrow">&darr;</div>
+
+  <div class="stage">
+    <h2>3. Team notified instantly <span class="badge">real Telegram delivery</span></h2>
+    <div class="bubble">New lead: Jamie Chen &lt;jamie@examplebakery.com.au&gt;
+"Hi, I saw your automation offer - interested in connecting our online order form to our records. Can you tell me more?"
+Logged 2026-09-29T15:11Z.</div>
+    <div class="meta">Delivered via the Telegram Bot API - message ID 244, confirmed 2026-09-29 15:11 UTC.</div>
+  </div>
+
+  <div class="sub" style="margin-top:32px;">No manual re-typing between the form, the CRM and the notification. ShivX Labs builds automations like this one, sized to your tools, in about a week. &mdash; gptshivx@gmail.com</div>
+</div>
+</body>
+</html>
