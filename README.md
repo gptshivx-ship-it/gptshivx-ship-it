@@ -7,3 +7,6 @@ Grounded AI summaries of new SEC 8-K/6-K filings for 50 AI, semiconductor and me
 AMD, MSFT, ...), delivered to a private Telegram channel. Every summary is checked against the filing: each quote must
 appear verbatim, or you get the raw excerpt instead. [Free sample week](SAMPLE.md) ·
 [Subscribe, US$9/mo](https://shivxlabs.gumroad.com/l/fnxmcy). Data: SEC EDGAR. Not financial advice.
+
+### Tell us what to automate
+One repetitive task, one email back, no call needed: [Enquire](enquire.html). Replies come from ShivX Labs' AI assistant.
